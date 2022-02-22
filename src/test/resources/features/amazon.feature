@@ -1,4 +1,5 @@
-Feature:
+Feature:US001 amazon page suche
+  Background:
   Scenario: TC_01 Amazon suchen
 
     Given User öffnet amazon Homepage

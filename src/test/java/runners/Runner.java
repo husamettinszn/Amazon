@@ -10,9 +10,6 @@ import org.junit.runner.RunWith;
         glue = "stepdefinitions",
         dryRun = false
 )
-
-
-
 public class Runner {
 
 }
