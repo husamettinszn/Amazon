@@ -1,7 +1,10 @@
 package stepdefinitions;
 
+import io.cucumber.java.bs.A;
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
+import io.cucumber.java.en.When;
+import io.cucumber.java.tr.Ama;
 import org.junit.Assert;
 import org.openqa.selenium.Keys;
 import pages.AmazonPage;
@@ -55,5 +58,17 @@ public class SuchTest {
     @Then("User schlieẞt die Seite.")
     public void userSchlieẞtDieSeite() {
         Driver.closeDriver();
+    }
+
+    @When("User sucht {string}")
+    public void user_sucht(String gesuchtesWort) {
+
+        amazonPage.suchFeld.sendKeys(gesuchtesWort+ Keys.ENTER);
+    }
+
+    @Then("User verifiziert, dass das Ergebnis {string} enthält")
+    public void user_verifiziert_dass_das_ergebnis_enthält(String gesuchtesWort) {
+        Assert.assertTrue(amazonPage.ergebnisText.getText().contains(gesuchtesWort));
+
     }
 }

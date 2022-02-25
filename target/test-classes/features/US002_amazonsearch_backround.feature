@@ -2,6 +2,8 @@ Feature: US002_amazonsearch_backround
 # @wip work in progress
 # @ wip or @amazon birinden biri varsa
 # @wip and @amazon ikisi de varsa
+# not @amazon yazilan tag olmayan
+
   Background:
     Given User öffnet amazon Homepage
 @amazon
