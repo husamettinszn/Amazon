@@ -1,6 +1,5 @@
 Feature: US004_amazon_senario_outline
 
-  @wip
   Scenario Outline: TC_vielfältige_suche
     When User öffnet amazon Homepage
     Then User sucht "<abc>"
