@@ -1,0 +1,1219 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-02-27T13:56:28.516Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "TC_007_dataTables",
+        "description": "",
+        "id": "us006-datatables;tc-007-datatables;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 15599000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 6713000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User geht zur \"data_tables_url\" seite",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"data_tables_url\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.user_geht_zur_seite(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 253000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User klikt auf new Taste",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.userKliktAufNewTaste()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2121000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gibt \"ahmet\" ins Vornamentextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ahmet\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_vornamentextfeld(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User gibt \"selim\" ins Namentextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selim\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_namentextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 110000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gibt \"manager\" ins Positiontextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_positiontextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 104000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User gibt \"home\" ins Officetextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"home\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_officetextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 94000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gibt \"-----\" ins Extentiontextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"-----\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_extentiontextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User gibt \"2022-02-01\" ins Startdatumtextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2022-02-01\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_startdatumtextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 92000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User gibt \"3000\" ins Gehalttextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3000\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_gehalttextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User klik auf create Button",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_klik_auf_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 163000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User sucht \"ahmet\" im Suchfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ahmet\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_sucht_im_suchfeld(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 766000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User verifiziert, dass \"ahmet\" in der Liste steht",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ahmet\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_verifiziert_dass_in_der_liste_steht(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-27T13:56:54.978Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 22,
+        "name": "TC_007_dataTables",
+        "description": "",
+        "id": "us006-datatables;tc-007-datatables;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 28487000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4967000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User geht zur \"data_tables_url\" seite",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"data_tables_url\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.user_geht_zur_seite(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 101000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User klikt auf new Taste",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.userKliktAufNewTaste()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2074000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gibt \"mahmut\" ins Vornamentextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mahmut\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_vornamentextfeld(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 61000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User gibt \"selim\" ins Namentextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selim\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_namentextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 73000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gibt \"scrum master\" ins Positiontextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"scrum master\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_positiontextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User gibt \"home\" ins Officetextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"home\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_officetextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gibt \"-----\" ins Extentiontextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"-----\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_extentiontextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 126000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User gibt \"2022-02-01\" ins Startdatumtextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2022-02-01\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_startdatumtextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User gibt \"3000\" ins Gehalttextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3000\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_gehalttextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 56000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User klik auf create Button",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_klik_auf_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 136000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User sucht \"mahmut\" im Suchfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mahmut\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_sucht_im_suchfeld(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 480000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User verifiziert, dass \"mahmut\" in der Liste steht",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"mahmut\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_verifiziert_dass_in_der_liste_steht(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-27T13:57:31.746Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 23,
+        "name": "TC_007_dataTables",
+        "description": "",
+        "id": "us006-datatables;tc-007-datatables;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 27297000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9299000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User geht zur \"data_tables_url\" seite",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"data_tables_url\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.user_geht_zur_seite(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 119000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User klikt auf new Taste",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.userKliktAufNewTaste()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2115000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gibt \"tarik\" ins Vornamentextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tarik\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_vornamentextfeld(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User gibt \"selim\" ins Namentextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selim\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_namentextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 87000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gibt \"manager\" ins Positiontextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_positiontextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User gibt \"home\" ins Officetextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"home\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_officetextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 91000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gibt \"-----\" ins Extentiontextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"-----\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_extentiontextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 233000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User gibt \"2022-02-01\" ins Startdatumtextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2022-02-01\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_startdatumtextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User gibt \"3000\" ins Gehalttextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"3000\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_gehalttextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 67000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User klik auf create Button",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_klik_auf_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User sucht \"tarik\" im Suchfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tarik\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_sucht_im_suchfeld(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 223000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User verifiziert, dass \"tarik\" in der Liste steht",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"tarik\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_verifiziert_dass_in_der_liste_steht(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-27T13:58:11.671Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "TC_007_dataTables",
+        "description": "",
+        "id": "us006-datatables;tc-007-datatables;;5",
+        "after": [
+          {
+            "result": {
+              "duration": 28460000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4682000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User geht zur \"data_tables_url\" seite",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"data_tables_url\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.user_geht_zur_seite(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 164000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User klikt auf new Taste",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.userKliktAufNewTaste()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2088000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gibt \"fatma\" ins Vornamentextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fatma\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_vornamentextfeld(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 73000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User gibt \"selim\" ins Namentextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"selim\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_namentextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gibt \"manager\" ins Positiontextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_positiontextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 86000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User gibt \"office\" ins Officetextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"office\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_officetextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 99000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gibt \"-----\" ins Extentiontextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"-----\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_extentiontextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 158000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User gibt \"2022-02-01\" ins Startdatumtextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2022-02-01\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_startdatumtextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 113000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User gibt \"20000\" ins Gehalttextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20000\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_gehalttextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 75000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User klik auf create Button",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_klik_auf_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User sucht \"fatma\" im Suchfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fatma\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_sucht_im_suchfeld(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 505000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User verifiziert, dass \"fatma\" in der Liste steht",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"fatma\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_verifiziert_dass_in_der_liste_steht(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-27T13:58:48.398Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 25,
+        "name": "TC_007_dataTables",
+        "description": "",
+        "id": "us006-datatables;tc-007-datatables;;6",
+        "after": [
+          {
+            "result": {
+              "duration": 27693000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 5445000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User geht zur \"data_tables_url\" seite",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"data_tables_url\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepdefinitions.BestbuyStepDefinitions.user_geht_zur_seite(java.lang.String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 147000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User klikt auf new Taste",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.userKliktAufNewTaste()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2172000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User gibt \"ahmet\" ins Vornamentextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ahmet\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_vornamentextfeld(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 118000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User gibt \"kaya\" ins Namentextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kaya\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_namentextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 123000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User gibt \"manager\" ins Positiontextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"manager\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_positiontextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 77000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User gibt \"home\" ins Officetextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"home\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_officetextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 90000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User gibt \"-----\" ins Extentiontextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"-----\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_extentiontextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 190000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User gibt \"2022-02-01\" ins Startdatumtextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"2022-02-01\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_startdatumtextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 68000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User gibt \"5000\" ins Gehalttextfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5000\"",
+                  "offset": 10
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_gibt_ins_gehalttextfeld(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User klik auf create Button",
+            "match": {
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_klik_auf_create_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User sucht \"ahmet\" im Suchfeld",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ahmet\"",
+                  "offset": 11
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_sucht_im_suchfeld(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 567000000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User verifiziert, dass \"ahmet\" in der Liste steht",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"ahmet\"",
+                  "offset": 23
+                }
+              ],
+              "location": "stepdefinitions.DataTablesStepDefinitions.user_verifiziert_dass_in_der_liste_steht(java.lang.String)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@wip"
+          }
+        ]
+      }
+    ],
+    "name": "US006_datatables",
+    "description": "",
+    "id": "us006-datatables",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US006_datatables.feature",
+    "tags": []
+  }
+]

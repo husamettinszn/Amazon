@@ -13,7 +13,7 @@ Feature: US006_datatables
     And User klik auf create Button
     Then User sucht "<first_name>" im Suchfeld
     Then User verifiziert, dass "<first_name>" in der Liste steht
-    And User schlieẞt die Seite.
+    #And User schlieẞt die Seite.
 
 
     Examples:

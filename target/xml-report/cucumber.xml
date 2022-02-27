@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="3" time="149.869">
+<testcase classname="US002_amazonsearch_backround" name="TC_002_amazon_iphone_suche_test" time="42.016">
+<system-out><![CDATA[Given User offnet amazon Homepage...........................................passed
+And User sucht iphone.......................................................passed
+Then User verifiziert, dass das Ergebnis iphone enthalt.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="US002_amazonsearch_backround" name="TC_003_amazon_teapot_suche_test" time="56.697">
+<system-out><![CDATA[Given User offnet amazon Homepage...........................................passed
+And User sucht tea pot......................................................passed
+Then User verifiziert, dass das Ergebnis tea pot enthalt....................passed
+]]></system-out>
+</testcase>
+<testcase classname="US002_amazonsearch_backround" name="TC_004_amazon_flower_suche_test" time="50.852">
+<system-out><![CDATA[Given User offnet amazon Homepage...........................................passed
+And User sucht flower.......................................................passed
+Then User verifiziert, dass das Ergebnis flower enthalt.....................passed
+]]></system-out>
+</testcase>
+</testsuite>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="5" time="176.998">
+<testcase classname="US006_datatables" name="TC_007_dataTables" time="26.43">
+<system-out><![CDATA[Given User geht zur "data_tables_url" seite.................................passed
+Then User klikt auf new Taste...............................................passed
+Then User gibt "ahmet" ins Vornamentextfeld.................................passed
+And User gibt "selim" ins Namentextfeld.....................................passed
+And User gibt "manager" ins Positiontextfeld................................passed
+And User gibt "home" ins Officetextfeld.....................................passed
+And User gibt "-----" ins Extentiontextfeld.................................passed
+And User gibt "2022-02-01" ins Startdatumtextfeld...........................passed
+And User gibt "3000" ins Gehalttextfeld.....................................passed
+And User klik auf create Button.............................................passed
+Then User sucht "ahmet" im Suchfeld.........................................passed
+Then User verifiziert, dass "ahmet" in der Liste steht......................passed
+]]></system-out>
+</testcase>
+<testcase classname="US006_datatables" name="TC_007_dataTables_2" time="36.752">
+<system-out><![CDATA[Given User geht zur "data_tables_url" seite.................................passed
+Then User klikt auf new Taste...............................................passed
+Then User gibt "mahmut" ins Vornamentextfeld................................passed
+And User gibt "selim" ins Namentextfeld.....................................passed
+And User gibt "scrum master" ins Positiontextfeld...........................passed
+And User gibt "home" ins Officetextfeld.....................................passed
+And User gibt "-----" ins Extentiontextfeld.................................passed
+And User gibt "2022-02-01" ins Startdatumtextfeld...........................passed
+And User gibt "3000" ins Gehalttextfeld.....................................passed
+And User klik auf create Button.............................................passed
+Then User sucht "mahmut" im Suchfeld........................................passed
+Then User verifiziert, dass "mahmut" in der Liste steht.....................passed
+]]></system-out>
+</testcase>
+<testcase classname="US006_datatables" name="TC_007_dataTables_3" time="39.909">
+<system-out><![CDATA[Given User geht zur "data_tables_url" seite.................................passed
+Then User klikt auf new Taste...............................................passed
+Then User gibt "tarik" ins Vornamentextfeld.................................passed
+And User gibt "selim" ins Namentextfeld.....................................passed
+And User gibt "manager" ins Positiontextfeld................................passed
+And User gibt "home" ins Officetextfeld.....................................passed
+And User gibt "-----" ins Extentiontextfeld.................................passed
+And User gibt "2022-02-01" ins Startdatumtextfeld...........................passed
+And User gibt "3000" ins Gehalttextfeld.....................................passed
+And User klik auf create Button.............................................passed
+Then User sucht "tarik" im Suchfeld.........................................passed
+Then User verifiziert, dass "tarik" in der Liste steht......................passed
+]]></system-out>
+</testcase>
+<testcase classname="US006_datatables" name="TC_007_dataTables_4" time="36.719">
+<system-out><![CDATA[Given User geht zur "data_tables_url" seite.................................passed
+Then User klikt auf new Taste...............................................passed
+Then User gibt "fatma" ins Vornamentextfeld.................................passed
+And User gibt "selim" ins Namentextfeld.....................................passed
+And User gibt "manager" ins Positiontextfeld................................passed
+And User gibt "office" ins Officetextfeld...................................passed
+And User gibt "-----" ins Extentiontextfeld.................................passed
+And User gibt "2022-02-01" ins Startdatumtextfeld...........................passed
+And User gibt "20000" ins Gehalttextfeld....................................passed
+And User klik auf create Button.............................................passed
+Then User sucht "fatma" im Suchfeld.........................................passed
+Then User verifiziert, dass "fatma" in der Liste steht......................passed
+]]></system-out>
+</testcase>
+<testcase classname="US006_datatables" name="TC_007_dataTables_5" time="36.834">
+<system-out><![CDATA[Given User geht zur "data_tables_url" seite.................................passed
+Then User klikt auf new Taste...............................................passed
+Then User gibt "ahmet" ins Vornamentextfeld.................................passed
+And User gibt "kaya" ins Namentextfeld......................................passed
+And User gibt "manager" ins Positiontextfeld................................passed
+And User gibt "home" ins Officetextfeld.....................................passed
+And User gibt "-----" ins Extentiontextfeld.................................passed
+And User gibt "2022-02-01" ins Startdatumtextfeld...........................passed
+And User gibt "5000" ins Gehalttextfeld.....................................passed
+And User klik auf create Button.............................................passed
+Then User sucht "ahmet" im Suchfeld.........................................passed
+Then User verifiziert, dass "ahmet" in der Liste steht......................passed
+]]></system-out>
+</testcase>
+</testsuite>

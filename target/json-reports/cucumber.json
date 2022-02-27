@@ -1,0 +1,284 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 13248000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User offnet amazon Homepage",
+            "match": {
+              "location": "stepdefinitions.SuchTest.user_offnet_amazon_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-27T13:56:28.503Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "TC_002_amazon_iphone_suche_test",
+        "description": "",
+        "id": "us002-amazonsearch-backround;tc-002-amazon-iphone-suche-test",
+        "after": [
+          {
+            "result": {
+              "duration": 4434000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 24227000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User sucht iphone",
+            "match": {
+              "location": "stepdefinitions.SuchTest.user_sucht_iphone()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 84000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User verifiziert, dass das Ergebnis iphone enthalt",
+            "match": {
+              "location": "stepdefinitions.SuchTest.user_verifiziert_dass_das_ergebnis_iphone_enthalt()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hook"
+          },
+          {
+            "name": "@amazon"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 31817000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User offnet amazon Homepage",
+            "match": {
+              "location": "stepdefinitions.SuchTest.user_offnet_amazon_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-27T13:57:10.541Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "TC_003_amazon_teapot_suche_test",
+        "description": "",
+        "id": "us002-amazonsearch-backround;tc-003-amazon-teapot-suche-test",
+        "after": [
+          {
+            "result": {
+              "duration": 5876000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 18807000000,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User sucht tea pot",
+            "match": {
+              "location": "stepdefinitions.SuchTest.user_sucht_tea_pot()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 193000000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User verifiziert, dass das Ergebnis tea pot enthalt",
+            "match": {
+              "location": "stepdefinitions.SuchTest.user_verifiziert_dass_das_ergebnis_tea_pot_enthalt()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hook"
+          },
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@teapot"
+          }
+        ]
+      },
+      {
+        "line": 8,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 25795000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User offnet amazon Homepage",
+            "match": {
+              "location": "stepdefinitions.SuchTest.user_offnet_amazon_homepage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-02-27T13:58:07.251Z",
+        "before": [
+          {
+            "result": {
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "TC_004_amazon_flower_suche_test",
+        "description": "",
+        "id": "us002-amazonsearch-backround;tc-004-amazon-flower-suche-test",
+        "after": [
+          {
+            "result": {
+              "duration": 5090000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepdefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13301000000,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User sucht flower",
+            "match": {
+              "location": "stepdefinitions.SuchTest.user_sucht_flower()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 6664000000,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User verifiziert, dass das Ergebnis flower enthalt",
+            "match": {
+              "location": "stepdefinitions.SuchTest.user_verifiziert_dass_das_ergebnis_flower_enthalt()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@hook"
+          },
+          {
+            "name": "@amazon"
+          },
+          {
+            "name": "@flower"
+          }
+        ]
+      }
+    ],
+    "name": "US002_amazonsearch_backround",
+    "description": "",
+    "id": "us002-amazonsearch-backround",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/US002_amazonsearch_backround.feature",
+    "tags": [
+      {
+        "name": "@hook",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

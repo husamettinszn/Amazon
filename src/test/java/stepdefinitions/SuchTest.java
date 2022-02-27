@@ -15,8 +15,8 @@ public class SuchTest {
 
     AmazonPage amazonPage = new AmazonPage();
 
-    @Given("User öffnet amazon Homepage")
-    public void user_öffnet_amazon_homepage() {
+    @Given("User offnet amazon Homepage")
+    public void user_offnet_amazon_homepage() {
 
         Driver.getDriver().get(ConfigReader.getProperty("amazon_startSeite"));
 
@@ -26,8 +26,8 @@ public class SuchTest {
         amazonPage.suchFeld.sendKeys("iphone", Keys.ENTER);
 
     }
-    @Then("User verifiziert, dass das Ergebnis iphone enthält")
-    public void user_verifiziert_dass_das_ergebnis_iphone_enthält() {
+    @Then("User verifiziert, dass das Ergebnis iphone enthalt")
+    public void user_verifiziert_dass_das_ergebnis_iphone_enthalt() {
         System.out.println(amazonPage.ergebnisText.getText());
         Assert.assertTrue(amazonPage.ergebnisText.getText().contains("iphone"));
 
@@ -37,8 +37,8 @@ public class SuchTest {
         amazonPage.suchFeld.sendKeys("teapot", Keys.ENTER);
 
     }
-    @Then("User verifiziert, dass das Ergebnis tea pot enthält")
-    public void user_verifiziert_dass_das_ergebnis_tea_pot_enthält() {
+    @Then("User verifiziert, dass das Ergebnis tea pot enthalt")
+    public void user_verifiziert_dass_das_ergebnis_tea_pot_enthalt() {
         System.out.println(amazonPage.ergebnisText.getText());
         Assert.assertTrue(amazonPage.ergebnisText.getText().contains("teapot"));
 
@@ -48,16 +48,17 @@ public class SuchTest {
         amazonPage.suchFeld.sendKeys("flower", Keys.ENTER);
 
     }
-    @Then("User verifiziert, dass das Ergebnis flower enthält")
-    public void user_verifiziert_dass_das_ergebnis_flower_enthält() {
+    @Then("User verifiziert, dass das Ergebnis flower enthalt")
+    public void user_verifiziert_dass_das_ergebnis_flower_enthalt() throws InterruptedException {
+
         System.out.println(amazonPage.ergebnisText.getText());
         Assert.assertTrue(amazonPage.ergebnisText.getText().contains("flower"));
-
     }
 
     @Then("User schlieẞt die Seite.")
     public void userSchlieẞtDieSeite() {
-        Driver.closeDriver();
+
+       Driver.closeDriver();
     }
 
     @When("User sucht {string}")
@@ -66,8 +67,8 @@ public class SuchTest {
         amazonPage.suchFeld.sendKeys(gesuchtesWort+ Keys.ENTER);
     }
 
-    @Then("User verifiziert, dass das Ergebnis {string} enthält")
-    public void user_verifiziert_dass_das_ergebnis_enthält(String gesuchtesWort) {
+    @Then("User verifiziert, dass das Ergebnis {string} enthalt")
+    public void user_verifiziert_dass_das_ergebnis_enthalt(String gesuchtesWort) {
         Assert.assertTrue(amazonPage.ergebnisText.getText().contains(gesuchtesWort));
 
     }
